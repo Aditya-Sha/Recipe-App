@@ -1,9 +1,14 @@
+import Layout from '@/components/Layout'
 import React from 'react'
 
 export default function page() {
   return (
+    <Layout>
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <h1> About Page </h1>
-    </main>
+        <h1> About Page </h1>
+        </main>
+
+    </Layout>
+    
   )
 }

@@ -1,0 +1,11 @@
+/* styles.css or global.css */
+body, html {
+  height: 100%;  /* Ensure the root elements take up full height */
+  margin: 0;     /* Reset default margins */
+}
+
+.container {
+  display: flex;        /* Make it a flex container */
+  flex-direction: column; /* Arrange children vertically */
+  min-height: 100%;    /* Ensure it occupies full height */
+}
